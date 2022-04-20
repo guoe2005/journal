@@ -1,0 +1,14 @@
+created: 20220214034210909
+modified: 20220222224128187
+tags: Tasks
+title: Completed
+tmap.id: 79f0769a-47f6-4312-85fe-4961997101be
+type: text/vnd.tiddlywiki
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+
+<$checkbox tag="done">~~<$link to={{!!title}}>
+<$view field="created" format="date" template="DD/MM hh:mm"/> - <$view field="title"/>
+</$link>~~</$checkbox>
+
+</$list>

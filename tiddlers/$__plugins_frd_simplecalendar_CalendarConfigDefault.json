@@ -1,0 +1,9 @@
+{
+    "startingDay": "1",
+    "days": ["日", "一", "二", "三", "四", "五", "六"],
+	"months": ["Jan", "Fev", "Mars", "Avr", "Mai","Juin", "Juil", "Aout", "Sept", "Oct", "Nov", "Dec"],
+	"buttons": "yes",
+	"buttonsImages": ["{{$:/core/images/chevron-left}}", "{{$:/core/images/left-arrow}}", "{{$:/core/images/right-arrow}}", "{{$:/core/images/chevron-right}}"],
+	"cellContent": "sc_linkNavigateToOrCreateEditModeJournal",
+	"format": "YYYY-MM-DD"
+}

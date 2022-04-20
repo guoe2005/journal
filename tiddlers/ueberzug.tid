@@ -1,0 +1,13 @@
+created: 20220219124256987
+modified: 20220219124317618
+tags: Ranger
+title: ueberzug
+tmap.id: 3c2fc811-e135-4515-b71a-8dfc5503cc34
+type: text/vnd.tiddlywiki
+
+ueberzug
+This will work with most terminals and even with tmux but requires X11. Doesn't work well with tabs.
+Install ueberzug. It can be installed with pip, in Debian the dependencies are: libx11-dev libxtst-dev python3-docopt python3-xlib python3-pil python3-attr A package is available for Arch Linux, maybe others as well.
+Add the following lines to your ~/.config/ranger/rc.conf.
+set preview_images true
+set preview_images_method ueberzug

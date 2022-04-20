@@ -1,0 +1,3 @@
+list: TODO Recent <<now YYYY-MM-DD >>
+title: $:/StoryList
+type: text/vnd.tiddlywiki

@@ -1,0 +1,9 @@
+{
+    "20220227165533887": "docker frp",
+    "20220228045126578": "打印核酸报告",
+    "20220228093536595": "fcitx",
+    "20220228135257933": "sudo ln -s /lib/systemd/system/gdm.service /etc/systemd/system/display-manager.service",
+    "20220228135318327": "# systemctl set-default graphical.target",
+    "20220228135328933": "# systemctl set-default multi-user.target",
+    "20220228151945121": "明天测核酸"
+}

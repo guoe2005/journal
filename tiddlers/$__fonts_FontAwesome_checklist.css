@@ -1,0 +1,24 @@
+/* CHECKLIST EXTENSION */
+
+.check li{
+list-style-type:none;
+padding:5px;
+}
+
+.check li:before{
+content: "\f00c";
+color: #9bdd81;
+
+font: normal normal normal 24px/1 FontAwesome;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.2);
+
+position:absolute;
+display: inline-block;
+margin: 0 0 0 -35px;
+width: 30px;
+font-size: 24px;
+vertical-align: middle;
+}

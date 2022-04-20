@@ -1,0 +1,25 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/OokTech/Calendar/Calendar Table Style
+type: text/css
+
+.calendar-table {
+    overflow: hidden;
+    width: 100%;
+}
+
+.calendar-table button {
+	line-height: 1.5;
+}
+
+.calendar-table table {
+	width:100%;
+}
+
+.calendar-table td, th {
+	padding: 0px 0px 0px 0px;
+    width: 14%;
+}
+
+.calendar-table td {
+    height: 100px;
+}

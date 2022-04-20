@@ -1,0 +1,16 @@
+created: 20220228154756748
+modified: 20220228154814893
+tags: Gentoo
+title: /etc/conf.d/agetty-autologin
+type: text/vnd.tiddlywiki
+
+Create a file /etc/conf.d/agetty-autologin:
+
+FILE /etc/conf.d/agetty-autologin
+agetty_options="--autologin <username> --noclear"
+Replace the agetty.tty1 service with one called called agetty-autologin.tty1:
+
+root #cd /etc/init.d
+root #rc-config delete agetty.tty1
+root #mv agetty.tty1 agetty-autologin.tty1
+root #rc-update add agetty-autologin.tty1 default

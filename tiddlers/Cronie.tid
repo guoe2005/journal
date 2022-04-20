@@ -1,0 +1,16 @@
+created: 20220217131639145
+modified: 20220317145235114
+tags: Termux
+title: Cronie
+tmap.id: 25eba9da-9bdc-4d48-97da-a0ebb5b45650
+type: text/vnd.tiddlywiki
+
+pkg install cronie termux-services<br>
+# restart termux session<br>
+sv-enable crond <br>
+crontab -e 
+
+termux-wake-lock
+
+1,11,21,31,41,51 * * * * pkill node  &> /dev/null<br>
+2,12,22,32,42,52 * * * * tiddlywiki /data/data/com.termux/files/home/storage/shared/Syncthing/Tiddlywiki --listen &> /dev/null

@@ -1,0 +1,8 @@
+created: 20220217150653813
+modified: 20220217150703460
+tags: Gentoo
+title: slock
+tmap.id: 9d1a0638-5591-48a4-b23b-68759c3e23c8
+type: text/vnd.tiddlywiki
+
+xautolock -time 10 -locker slock &

@@ -1,0 +1,15 @@
+created: 20220214021435564
+modified: 20220216084403320
+tags: Tasks
+title: ToDo
+tmap.id: dfbb4e3d-4598-45ea-b08b-000a8e9f7937
+type: text/vnd.tiddlywiki
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+
+<$checkbox tag="done"> <$link to={{!!title}}>
+<$view field="title"/>
+</$link>
+</$checkbox>
+
+</$list>

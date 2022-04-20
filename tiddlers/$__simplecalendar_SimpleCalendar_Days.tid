@@ -1,0 +1,8 @@
+calendar: SimpleCalendar
+created: 20220224021021909
+modified: 20220224025626160
+reveal-edit: 
+title: $:/simplecalendar/SimpleCalendar_Days
+type: text/vnd.tiddlywiki
+
+{{||$:/plugins/frd/simplecalendar/DaysTemplate}}

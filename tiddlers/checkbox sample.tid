@@ -1,0 +1,9 @@
+created: 20220218191123652
+modified: 20220218191426921
+status: closed
+tags: 
+title: checkbox sample
+tmap.id: 09f117c8-0665-4acd-b349-b5592e14745f
+type: text/vnd.tiddlywiki
+
+<$checkbox field="status" checked="open" unchecked="closed" default="closed"> Is it open?</$checkbox><br>''status:'' {{!!status}}

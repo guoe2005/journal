@@ -1,0 +1,10 @@
+created: 20220217144459758
+modified: 20220217222537132
+tags: Gentoo
+title: dcron
+tmap.id: 81a4f7e6-d1dc-43b6-83e7-81668fc714db
+type: text/vnd.tiddlywiki
+
+ <br>
+1,11,21,31,41,51     *        *      *       ?       /usr/bin/pkill node<br>
+2,12,22,32,42,52     *        *      *       ?       /usr/bin/node /home/guoyi/node_modules/.bin/tiddlywiki /home/guoyi/Documents/Gentoo/tw --listen

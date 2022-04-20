@@ -1,0 +1,8 @@
+calendar: mycalendar
+created: 20170508125204488
+modified: 20180809112624202
+reveal-edit: $:/simplecalendar/Item20170515125421
+title: $:/simplecalendar/mycalendar_Days
+type: text/vnd.tiddlywiki
+
+{{||$:/plugins/frd/simplecalendar/DaysTemplate}}

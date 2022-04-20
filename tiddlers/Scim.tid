@@ -1,0 +1,36 @@
+created: 20220228194440381
+modified: 20220228231820250
+tags: Software
+title: Scim
+type: text/vnd.tiddlywiki
+
+sudo gedit /etc/X11/xinit/xinitrc.d/95scim
+
+
+export LC_CTYPE=zh_CN.UTF-8
+export XMODIFIERS="@im=scim"
+export XIM="scim"
+export XIM_PROGRAM="scim"
+export XIM_ARGS="-d"
+export GTK_IM_MODULE="scim"
+export QT_IM_MODULE="scim"
+
+
+
+➜  ~ sudo gedit /etc/env.d/100i18n
+
+
+
+LANG=en_US.UTF-8
+LC_CTYPE=zh_CN.UTF-8
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_PAPER="en_US.UTF-8"
+LC_NAME="en_US.UTF-8"
+LC_ADDRESS="en_US.UTF-8"
+LC_TELEPHONE="en_US.UTF-8"
+LC_MEASUREMENT="en_US.UTF-8"
+LC_IDENTIFICATION="en_US.UTF-8"

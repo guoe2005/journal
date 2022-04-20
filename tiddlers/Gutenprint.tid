@@ -1,0 +1,10 @@
+created: 20220217104657649
+modified: 20220217104810145
+tags: Gentoo
+title: Gutenprint
+tmap.id: f33ca435-d3b4-48df-8a1f-50234ec5b55f
+type: text/vnd.tiddlywiki
+
+cups<br>
+root #gpasswd -a username lp<br>
+root #gpasswd -a username lpadmin

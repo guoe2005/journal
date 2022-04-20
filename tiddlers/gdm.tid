@@ -1,0 +1,11 @@
+created: 20220228135346598
+modified: 20220228135424520
+tags: Software
+title: gdm
+type: text/vnd.tiddlywiki
+
+ sudo ln -s /lib/systemd/system/gdm.service /etc/systemd/system/display-manager.service
+ 
+systemctl set-default graphical.target
+ 
+systemctl set-default multi-user.target
